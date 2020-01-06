@@ -2,13 +2,13 @@
 
 require 'rubygems'
 require 'bundler'
-begin
-  Bundler.setup(:default, :development)
-rescue Bundler::BundlerError => e
-  $stderr.puts e.message
-  $stderr.puts "Run `bundle install` to install missing gems"
-  exit e.status_code
-end
+# begin
+#   Bundler.setup(:default, :development)
+# rescue Bundler::BundlerError => e
+#   $stderr.puts e.message
+#   $stderr.puts "Run `bundle install` to install missing gems"
+#   exit e.status_code
+# end
 require 'rake'
 
 require 'jeweler'
@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "new"
   gem.homepage = "http://github.com/kigsmtua/new"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "This is it"
+  gem.description = "Does this even make any sense"
   gem.email = "mutuakiragu@gmail.com"
   gem.authors = ["John Kiragu"]
   # dependencies defined in Gemfile
